@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.background-image{
+  background-image: url(../mainpage/backgroundimage.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.title{
+  height: 50px;
+  text-align: center;
+  font-size: 90px;
+  margin-bottom: 70px;
+  font-family: Dancing Script;
+  text-shadow: 5px 0px 4px rgba(83, 83, 83, 0.5);
+}
+.contact-us{
+  margin-left: 1750px;
+  background-color: rgb(0, 0, 0, 0.7);
+  display: inline-block;
+  padding: 8px 13px 8px 13px;
+  font-size: 15px;
+  border-radius: 5px;
+  font-family: Noto Sans Avestan;
+}
+.header{
+  display: inline-block;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.american-menu, .caribbean-menu,
+.filipino-menu, .indian-menu, .korean-menu, .italian-menu, .german-menu{
+  text-align: center;
+  font-family: Fira Sans Condensed;
+  font-size: 20px;
+  padding-top: 23px;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding-bottom: 23px;
+  border-radius: 5px;
+}
+.american-menu:hover, .caribbean-menu:hover,
+.filipino-menu:hover, .german-menu:hover, .indian-menu:hover, 
+.korean-menu:hover, .italian-menu:hover, .german-menu:hover{
+  background-color: rgb(0, 0, 0, 0.4);
+}
+.body{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 60px;
+}
+.body1{
+  background-color: rgb(0, 0, 0, 0.25);
+  margin-left: 150px;
+  margin-right: 20px;
+  border-radius: 10px;
+  height: 615px;
+  overflow: hidden;
+  overflow-y: scroll;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+
+}
+.all-cuisine-photo{
+  width: 550px;
+  margin-left: 150px;
+}
+.american-submenu-bf, .american-submenu-l, .american-submenu-d, .caribbean-submenu-bf, .caribbean-submenu-l, 
+.caribbean-submenu-d, .filipino-submenu-bf, .filipino-submenu-l, .filipino-submenu-d,.indian-submenu-bf, .indian-submenu-l, .indian-submenu-d,
+.italian-submenu-bf, .italian-submenu-l, .italian-submenu-d, .korean-submenu-bf, .korean-submenu-l, .korean-submenu-d, 
+.german-submenu-bf, .german-submenu-l, .german-submenu-d{
+  font-size: 15px;
+  font-family: Open Sans;
+}
+
+.american-sub-menu, .caribbean-sub-menu, .filipino-sub-menu, .indian-sub-menu, .italian-sub-menu, .korean-sub-menu, .german-sub-menu{
+  display: none;
+  vertical-align: middle;
+}
+
+.all-cuisine-infos{
+  margin-top: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 300px;
+}
+.cuisine-title{
+  font-family: Cookie;
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: white;
+  
+}
+.cuisine-meaning{
+  font-family: Ubuntu;
+  color: white;
+  margin-bottom: 18px;
+}
+.american-menu:hover .american-sub-menu{
+  display: block;
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0.5);
+  margin-top: 23px;
+  margin-left: 35px;
+  border-radius: 2px;
+  line-height: 25px;
+  padding: 0px 40px 5px 40px;
+}
+.caribbean-menu:hover .caribbean-sub-menu{
+  display: block;
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0.5);
+  margin-top: 23px;
+  margin-left: 35px;
+  border-radius: 2px;
+  line-height: 25px;
+  padding: 0px 40px 5px 40px;
+}
+.filipino-menu:hover .filipino-sub-menu{
+  display: block;
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0.5);
+  margin-top: 23px;
+  margin-left: 35px;
+  border-radius: 2px;
+  line-height: 25px;
+  padding: 0px 40px 5px 40px;
+}
+.indian-menu:hover .indian-sub-menu{
+  display: block;
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0.5);
+  margin-top: 23px;
+  margin-left: 35px;
+  border-radius: 2px;
+  line-height: 25px;
+  padding: 0px 40px 5px 40px;
+}
+.italian-menu:hover .italian-sub-menu{
+  display: block;
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0.5);
+  margin-top: 23px;
+  margin-left: 35px;
+  border-radius: 2px;
+  line-height: 25px;
+  padding: 0px 40px 5px 40px;
+}
+.korean-menu:hover .korean-sub-menu{
+  display: block;
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0.5);
+  margin-top: 23px;
+  margin-left: 35px;
+  border-radius: 2px;
+  line-height: 25px;
+  padding: 0px 40px 5px 40px;
+}
+.german-menu:hover .german-sub-menu{
+  display: block;
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0.5);
+  margin-top: 23px;
+  margin-left: 35px;
+  border-radius: 2px;
+  line-height: 25px;
+  padding: 0px 40px 5px 40px;
+}

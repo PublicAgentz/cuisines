@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.background-image{
+  background-image: url(../mainpage/backgroundimage.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.american-info{
+  margin-left: 100px;
+}
+.american-name{
+  text-shadow: 5px 0px 4px rgba(83, 83, 83, 0.5);
+  font-family: Dancing Script;
+  font-size: 80px;
+  display: inline-block;
+  margin-top: 30px;
+}
+.back-button{
+  display: inline-block;
+  margin-top: -100px;
+  margin-left: 500px;
+}
+.back-icon{
+  width: 65px;
+  padding-bottom: 60px;
+  margin-left: 1200px;
+}
+.back-button-name{
+  margin-left: 1209px;
+  margin-top: -60px;
+  font-family: play;
+}
+.back-icon:hover{
+  opacity: 0.8;
+}
+.american-bfast{ 
+  font-family: Alumni Sans Pinstripe;
+  font-size: 40px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom: 1px dotted white;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.american-lunch{
+  font-family: Alumni Sans Pinstripe;
+  font-size: 40px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom: 1px dotted white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.american-dinner{
+  font-family: Alumni Sans Pinstripe;
+  font-size: 40px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom: 1px dotted white;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.american-bfast:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.american-lunch:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.american-dinner:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.american-meal-div{
+  margin-top: 80px;
+  display: inline-block;
+  color: white;
+}
+.american-photos-div{
+  border-width: 1px;
+  border-color: black;
+  display: inline-block;
+  width: 1200px;
+  height: 650px;
+  margin-top: -185px;
+  margin-left: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 50px; 
+}
+.american-pic1, .american-pic2, .american-pic3, .american-pic4, .american-pic5, .american-pic6{
+ width: 300px;
+ height: 300px;
+ object-fit: cover;
+ border-color: white;
+ border-style: solid;
+ border-width: 5px;
+ box-shadow: 5px 3px 6px;
+}
+.second-div{
+  margin-top: -50px;
+}
+
+
+
+
+
+
+
